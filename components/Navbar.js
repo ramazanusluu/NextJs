@@ -32,6 +32,11 @@ export default function Navbar() {
               <a>Fast Refresh</a>
             </Link>
           </li>
+          <li>
+            <Link href="/fetching">
+              <a>Data Fetching</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
