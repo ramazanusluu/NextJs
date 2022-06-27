@@ -1,3 +1,9 @@
+.hr {
+  border: none;
+  border-bottom: 1px solid #efefef;
+  margin: 3em auto;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;

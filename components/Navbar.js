@@ -17,6 +17,16 @@ export default function Navbar() {
               <a>About</a>
             </Link>
           </li>
+          <li>
+            <Link href="/references/image">
+              <a>Image</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/fastRefresh">
+              <a>Fast Refresh</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

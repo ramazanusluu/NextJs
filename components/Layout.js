@@ -1,13 +1,13 @@
-import React from 'react'
-import styles from "../styles/Layout.module.css"
+import React from "react";
+import styles from "../styles/Layout.module.css";
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Layout Her yerde !</h1>
+        <h3>Layout her yerde !</h3>
         {children}
       </main>
     </div>
-  )
+  );
 }
