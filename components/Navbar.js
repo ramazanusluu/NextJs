@@ -23,6 +23,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="/references">
+              <a>Refrerences</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/fastRefresh">
               <a>Fast Refresh</a>
             </Link>
