@@ -42,6 +42,11 @@ export default function Navbar() {
               <a>Data Fetching 2</a>
             </Link>
           </li>
+          <li>
+            <Link href="/training">
+              <a>Training(api)</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
