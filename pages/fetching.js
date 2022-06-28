@@ -1,7 +1,7 @@
 import Head from "next/head";
 import PostList from "../components/PostList";
 
-export default function Fetching({ posts }) {
+export default function Posts({ posts }) {
     console.log(posts);
   return (
     <div>
