@@ -1,26 +1,27 @@
 import React from "react";
 import Head from "next/head";
 
-export default function PostDetails({ post }) {
+export default function UserDetail({ user }) {
   return (
     <div>
       <Head>
-        <title>Post Detail</title>
+        <title>User Detail</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h3>{post.title}</h3>
-      <p>{post.body}</p>
+      <h3>{user.username}</h3>
+      <h3>{user.email}</h3>
+      <h3>{user.phone}</h3>
     </div>
   );
 }
 export const getServerSideProps = async (context) => {
   const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts/${context.params.id}`
+    `https://jsonplaceholder.typicode.com/users/${context.params.id}`
   );
-  const post = await res.json();
+  const user = await res.json();
   return {
     props: {
-      post,
+      user,
     },
   };
 };
