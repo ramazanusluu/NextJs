@@ -14,11 +14,26 @@ export default function UserDetail({ user }) {
     </div>
   );
 }
-export const getServerSideProps = async (context) => {
+export const getStaticPaths = async () => {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
+  const users = await res.json();
+  const paths = users.map((user) => {
+    return {
+      params: { id: user.id.toString() },
+    };
+  });
+  return {
+    paths,
+    fallback: false, // false or 'blocking'
+  };
+};
+
+export const getStaticProps = async (context) => {
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/users/${context.params.id}`
   );
   const user = await res.json();
+
   return {
     props: {
       user,
