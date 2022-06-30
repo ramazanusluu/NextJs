@@ -9,7 +9,14 @@ export default function Navbar() {
         <ul>
           <li>
             <Link href="/">
-              <a><img src="/images/nextlogo.png" alt="logo" width="100px" height="40px"/></a>
+              <a>
+                <img
+                  src="/images/nextlogo.png"
+                  alt="logo"
+                  width="100px"
+                  height="40px"
+                />
+              </a>
             </Link>
           </li>
           <li>
@@ -18,15 +25,16 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/references/image">
-              <a>Next/Image</a>
+            <Link href="/optimizasyon">
+              <a>Rotuer Page</a>
             </Link>
           </li>
           <li>
-            <Link href="/references">
-              <a>Html/img</a>
+            <Link href="/optimizasyon/img">
+              <a>Image Optimization</a>
             </Link>
           </li>
+
           <li>
             <Link href="/fastRefresh">
               <a>Fast Refresh</a>
