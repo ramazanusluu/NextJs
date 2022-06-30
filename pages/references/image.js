@@ -12,8 +12,8 @@ export default function image() {
         <h1>Next/Image</h1>
         <Image
           src="/images/next.png" // Route of the image file
-          height={144} // Desired size with correct aspect ratio
-          width={144} // Desired size with correct aspect ratio
+          height={500} // Desired size with correct aspect ratio
+          width={500} // Desired size with correct aspect ratio
           alt="next image"
         />
       </main>

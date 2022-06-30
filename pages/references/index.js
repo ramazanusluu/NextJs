@@ -10,12 +10,8 @@ export default function index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>
-          <h3>
-            References klasörü altındaki index.js dosyasına sadece references
-            yolu belirtilerek Ulaşılabilir.
-          </h3>
-        </div>
+        <h1>Html img etiketi</h1>
+        <img src="/images/next.png" alt="logo" />
       </main>
     </div>
   );

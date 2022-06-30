@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul>
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a><img src="/images/nextlogo.png" alt="logo" width="100px" height="40px"/></a>
             </Link>
           </li>
           <li>
@@ -19,12 +19,12 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/references/image">
-              <a>Image</a>
+              <a>Next/Image</a>
             </Link>
           </li>
           <li>
             <Link href="/references">
-              <a>Refrerences</a>
+              <a>Html/img</a>
             </Link>
           </li>
           <li>

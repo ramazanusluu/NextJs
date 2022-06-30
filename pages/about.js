@@ -11,7 +11,11 @@ export default function About() {
       </Head>
       <main>
         <h1>About page</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, quibusdam.</p>
+        <h1>
+          pages klasörü altında bulunan about.js dosya yoluyla router işlemi
+          gerçekleştirilmiştir.
+        </h1>
+        <h1>http://localhost:3000/about</h1>
       </main>
     </div>
   );
