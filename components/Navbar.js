@@ -39,7 +39,11 @@ export default function Navbar() {
               <a>Image Optimization</a>
             </Link>
           </li>
-
+          <li>
+            <Link href="/nextSeo">
+              <a>Next-Seo</a>
+            </Link>
+          </li>
           <li>
             <Link href="/fastRefresh">
               <a>Fast Refresh</a>
