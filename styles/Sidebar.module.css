@@ -1,0 +1,11 @@
+.buton {
+  color: #0070f3;
+  background-color: rgb(247, 247, 247);
+  padding: 10px 30px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.buton:hover {
+  color: #000;
+}

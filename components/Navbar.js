@@ -26,7 +26,12 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/optimizasyon">
-              <a>Rotuer Page</a>
+              <a>File Router</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/router">
+              <a>Next/Router</a>
             </Link>
           </li>
           <li>
@@ -52,7 +57,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/training">
-              <a>Training(api)</a>
+              <a>API Routers</a>
             </Link>
           </li>
         </ul>
