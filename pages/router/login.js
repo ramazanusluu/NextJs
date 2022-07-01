@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 
-const useUser = () => ({ user: "Ramazan", loading: true });
+const useUser = () => ({ user: null, loading: false });
 
 export default function login() {
   const { user, loading } = useUser();
